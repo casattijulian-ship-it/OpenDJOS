@@ -5,11 +5,6 @@ namespace OpenDJ
 
 bool ServiceManager::initialize()
 {
-    if (!m_logger.initialize())
-    {
-        return false;
-    }
-
     if (!m_eventBus.initialize())
     {
         return false;
@@ -21,12 +16,6 @@ bool ServiceManager::initialize()
 void ServiceManager::shutdown()
 {
     m_eventBus.shutdown();
-    m_logger.shutdown();
-}
-
-Logger& ServiceManager::logger()
-{
-    return m_logger;
 }
 
 EventBus& ServiceManager::eventBus()

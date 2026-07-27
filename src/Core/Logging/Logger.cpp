@@ -5,35 +5,55 @@
 namespace OpenDJ
 {
 
-bool Logger::initialize()
+void Logger::debug(std::string_view message)
 {
-    std::cout << "[INFO] Logger initialized." << std::endl;
-    return true;
-}
-
-void Logger::shutdown()
-{
-    std::cout << "[INFO] Logger shutdown." << std::endl;
+    log(Level::Debug, message);
 }
 
 void Logger::info(std::string_view message)
 {
-    std::cout << "[INFO] " << message << std::endl;
+    log(Level::Info, message);
 }
 
 void Logger::warning(std::string_view message)
 {
-    std::cout << "[WARNING] " << message << std::endl;
+    log(Level::Warning, message);
 }
 
 void Logger::error(std::string_view message)
 {
-    std::cout << "[ERROR] " << message << std::endl;
+    log(Level::Error, message);
 }
 
-void Logger::debug(std::string_view message)
+void Logger::log(Level level, std::string_view message)
 {
-    std::cout << "[DEBUG] " << message << std::endl;
+    std::cout
+        << "["
+        << levelToString(level)
+        << "] "
+        << message
+        << std::endl;
+}
+
+std::string Logger::levelToString(Level level)
+{
+    switch (level)
+    {
+        case Level::Debug:
+            return "DEBUG";
+
+        case Level::Info:
+            return "INFO";
+
+        case Level::Warning:
+            return "WARNING";
+
+        case Level::Error:
+            return "ERROR";
+
+        default:
+            return "UNKNOWN";
+    }
 }
 
 }

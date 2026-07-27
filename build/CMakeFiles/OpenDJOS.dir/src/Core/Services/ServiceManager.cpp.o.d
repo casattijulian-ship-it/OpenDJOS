@@ -2,7 +2,8 @@ CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o: \
  /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/ServiceManager.cpp \
  /usr/include/stdc-predef.h \
  /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/ServiceManager.hpp \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Logging/Logger.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Core/Events/EventBus.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Core/Events/Event.hpp \
  /usr/include/c++/15/string_view /usr/include/c++/15/bits/version.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -64,6 +65,4 @@ CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o: \
  /usr/include/c++/15/bits/ostream_insert.h \
  /usr/include/c++/15/bits/cxxabi_forced.h \
  /usr/include/c++/15/bits/string_view.tcc \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/IService.hpp \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Events/EventBus.hpp \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Events/Event.hpp
+ /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/IService.hpp

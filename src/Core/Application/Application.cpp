@@ -1,9 +1,18 @@
 #include "Application.hpp"
 
-#include "Core/Version/Version.hpp"
+#include "../Logging/Logger.hpp"
+#include "../Version/Version.hpp"
 
 namespace OpenDJ
 {
+
+Application::Application()
+{
+}
+
+Application::~Application()
+{
+}
 
 int Application::run()
 {
@@ -12,8 +21,6 @@ int Application::run()
         return -1;
     }
 
-    m_services.logger().info("Application started");
-
     shutdown();
 
     return 0;
@@ -21,22 +28,17 @@ int Application::run()
 
 bool Application::initialize()
 {
-    if (!m_services.initialize())
-    {
-        return false;
-    }
-
-    m_services.logger().info(Version::fullVersion());
-    m_services.logger().info("Initializing OpenDJ OS...");
+    Logger::info("==================================");
+    Logger::info(Version::fullVersion());
+    Logger::info("Initializing OpenDJ OS...");
+    Logger::info("==================================");
 
     return true;
 }
 
 void Application::shutdown()
 {
-    m_services.logger().info("Shutting down OpenDJ OS...");
-
-    m_services.shutdown();
+    Logger::info("Shutting down OpenDJ OS...");
 }
 
 }

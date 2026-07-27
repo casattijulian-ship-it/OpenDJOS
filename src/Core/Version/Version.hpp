@@ -1,14 +1,21 @@
 #pragma once
 
-#include <string_view>
+#include <string>
 
 namespace OpenDJ
 {
-    class Version
-    {
-    public:
-        static std::string_view name();
-        static std::string_view version();
-        static std::string_view fullVersion();
-    };
+
+class Version
+{
+public:
+
+    static std::string name();
+
+    static std::string version();
+
+    static std::string codename();
+
+    static std::string fullVersion();
+};
+
 }

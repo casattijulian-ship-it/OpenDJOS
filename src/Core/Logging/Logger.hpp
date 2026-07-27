@@ -1,25 +1,38 @@
 #pragma once
 
+#include <string>
 #include <string_view>
-
-#include "Core/Services/IService.hpp"
 
 namespace OpenDJ
 {
 
-class Logger final : public IService
+class Logger
 {
 public:
-    Logger() = default;
-    ~Logger() override = default;
 
-    bool initialize() override;
-    void shutdown() override;
+    enum class Level
+    {
+        Debug,
+        Info,
+        Warning,
+        Error
+    };
 
-    void info(std::string_view message);
-    void warning(std::string_view message);
-    void error(std::string_view message);
-    void debug(std::string_view message);
+public:
+
+    static void debug(std::string_view message);
+
+    static void info(std::string_view message);
+
+    static void warning(std::string_view message);
+
+    static void error(std::string_view message);
+
+private:
+
+    static void log(Level level, std::string_view message);
+
+    static std::string levelToString(Level level);
 };
 
-} // namespace OpenDJ
+}
