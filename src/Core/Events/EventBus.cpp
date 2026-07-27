@@ -1,4 +1,5 @@
 #include "EventBus.hpp"
+
 #include "Core/Logging/Logger.hpp"
 
 namespace OpenDJ
@@ -6,22 +7,38 @@ namespace OpenDJ
 
 bool EventBus::initialize()
 {
-    Logger logger;
-    logger.info("Event Bus initialized.");
+    Logger::info("EventBus initialized.");
 
     return true;
 }
 
 void EventBus::shutdown()
 {
-    Logger logger;
-    logger.info("Event Bus shutdown.");
+    m_listeners.clear();
+
+    Logger::info("EventBus shutdown.");
+}
+
+void EventBus::subscribe(EventType type, EventListener listener)
+{
+    m_listeners[type].push_back(std::move(listener));
 }
 
 void EventBus::publish(const Event& event)
 {
-    Logger logger;
-    logger.debug(event.name());
+    Logger::debug(event.name());
+
+    auto it = m_listeners.find(event.type());
+
+    if (it == m_listeners.end())
+    {
+        return;
+    }
+
+    for (const auto& listener : it->second)
+    {
+        listener(event);
+    }
 }
 
 }

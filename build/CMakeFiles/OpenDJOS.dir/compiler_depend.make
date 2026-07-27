@@ -460,6 +460,7 @@ CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o: /home/julian/
 
 CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigValidator.cpp \
   /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigData.hpp \
+  /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigValidator.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
