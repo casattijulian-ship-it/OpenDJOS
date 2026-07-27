@@ -153,6 +153,102 @@ src/Core/Application/Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.s
 .PHONY : src/Core/Application/Application.cpp.s
 
+src/Core/Configuration/ConfigData.o: src/Core/Configuration/ConfigData.cpp.o
+.PHONY : src/Core/Configuration/ConfigData.o
+
+# target to build an object file
+src/Core/Configuration/ConfigData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o
+.PHONY : src/Core/Configuration/ConfigData.cpp.o
+
+src/Core/Configuration/ConfigData.i: src/Core/Configuration/ConfigData.cpp.i
+.PHONY : src/Core/Configuration/ConfigData.i
+
+# target to preprocess a source file
+src/Core/Configuration/ConfigData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.i
+.PHONY : src/Core/Configuration/ConfigData.cpp.i
+
+src/Core/Configuration/ConfigData.s: src/Core/Configuration/ConfigData.cpp.s
+.PHONY : src/Core/Configuration/ConfigData.s
+
+# target to generate assembly for a file
+src/Core/Configuration/ConfigData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.s
+.PHONY : src/Core/Configuration/ConfigData.cpp.s
+
+src/Core/Configuration/ConfigLoader.o: src/Core/Configuration/ConfigLoader.cpp.o
+.PHONY : src/Core/Configuration/ConfigLoader.o
+
+# target to build an object file
+src/Core/Configuration/ConfigLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o
+.PHONY : src/Core/Configuration/ConfigLoader.cpp.o
+
+src/Core/Configuration/ConfigLoader.i: src/Core/Configuration/ConfigLoader.cpp.i
+.PHONY : src/Core/Configuration/ConfigLoader.i
+
+# target to preprocess a source file
+src/Core/Configuration/ConfigLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.i
+.PHONY : src/Core/Configuration/ConfigLoader.cpp.i
+
+src/Core/Configuration/ConfigLoader.s: src/Core/Configuration/ConfigLoader.cpp.s
+.PHONY : src/Core/Configuration/ConfigLoader.s
+
+# target to generate assembly for a file
+src/Core/Configuration/ConfigLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.s
+.PHONY : src/Core/Configuration/ConfigLoader.cpp.s
+
+src/Core/Configuration/ConfigValidator.o: src/Core/Configuration/ConfigValidator.cpp.o
+.PHONY : src/Core/Configuration/ConfigValidator.o
+
+# target to build an object file
+src/Core/Configuration/ConfigValidator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o
+.PHONY : src/Core/Configuration/ConfigValidator.cpp.o
+
+src/Core/Configuration/ConfigValidator.i: src/Core/Configuration/ConfigValidator.cpp.i
+.PHONY : src/Core/Configuration/ConfigValidator.i
+
+# target to preprocess a source file
+src/Core/Configuration/ConfigValidator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.i
+.PHONY : src/Core/Configuration/ConfigValidator.cpp.i
+
+src/Core/Configuration/ConfigValidator.s: src/Core/Configuration/ConfigValidator.cpp.s
+.PHONY : src/Core/Configuration/ConfigValidator.s
+
+# target to generate assembly for a file
+src/Core/Configuration/ConfigValidator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.s
+.PHONY : src/Core/Configuration/ConfigValidator.cpp.s
+
+src/Core/Configuration/Configuration.o: src/Core/Configuration/Configuration.cpp.o
+.PHONY : src/Core/Configuration/Configuration.o
+
+# target to build an object file
+src/Core/Configuration/Configuration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o
+.PHONY : src/Core/Configuration/Configuration.cpp.o
+
+src/Core/Configuration/Configuration.i: src/Core/Configuration/Configuration.cpp.i
+.PHONY : src/Core/Configuration/Configuration.i
+
+# target to preprocess a source file
+src/Core/Configuration/Configuration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.i
+.PHONY : src/Core/Configuration/Configuration.cpp.i
+
+src/Core/Configuration/Configuration.s: src/Core/Configuration/Configuration.cpp.s
+.PHONY : src/Core/Configuration/Configuration.s
+
+# target to generate assembly for a file
+src/Core/Configuration/Configuration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.s
+.PHONY : src/Core/Configuration/Configuration.cpp.s
+
 src/Core/Events/Event.o: src/Core/Events/Event.cpp.o
 .PHONY : src/Core/Events/Event.o
 
@@ -309,6 +405,18 @@ help:
 	@echo "... src/Core/Application/Application.o"
 	@echo "... src/Core/Application/Application.i"
 	@echo "... src/Core/Application/Application.s"
+	@echo "... src/Core/Configuration/ConfigData.o"
+	@echo "... src/Core/Configuration/ConfigData.i"
+	@echo "... src/Core/Configuration/ConfigData.s"
+	@echo "... src/Core/Configuration/ConfigLoader.o"
+	@echo "... src/Core/Configuration/ConfigLoader.i"
+	@echo "... src/Core/Configuration/ConfigLoader.s"
+	@echo "... src/Core/Configuration/ConfigValidator.o"
+	@echo "... src/Core/Configuration/ConfigValidator.i"
+	@echo "... src/Core/Configuration/ConfigValidator.s"
+	@echo "... src/Core/Configuration/Configuration.o"
+	@echo "... src/Core/Configuration/Configuration.i"
+	@echo "... src/Core/Configuration/Configuration.s"
 	@echo "... src/Core/Events/Event.o"
 	@echo "... src/Core/Events/Event.i"
 	@echo "... src/Core/Events/Event.s"

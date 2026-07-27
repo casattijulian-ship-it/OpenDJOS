@@ -25,6 +25,11 @@ add_executable(OpenDJOS
 
     src/Core/Application/Application.cpp
 
+    src/Core/Configuration/Configuration.cpp
+    src/Core/Configuration/ConfigData.cpp
+    src/Core/Configuration/ConfigLoader.cpp
+    src/Core/Configuration/ConfigValidator.cpp
+
     src/Core/Events/Event.cpp
     src/Core/Events/EventBus.cpp
 

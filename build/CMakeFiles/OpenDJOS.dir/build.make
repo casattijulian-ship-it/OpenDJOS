@@ -100,10 +100,66 @@ CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Core/Application/Application.cpp -o CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.s
 
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/Configuration.cpp
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/Configuration.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/Configuration.cpp > CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/Configuration.cpp -o CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigData.cpp
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigData.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigData.cpp > CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigData.cpp -o CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigLoader.cpp
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigLoader.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigLoader.cpp > CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigLoader.cpp -o CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigValidator.cpp
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigValidator.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigValidator.cpp > CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigValidator.cpp -o CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.s
+
 CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
 CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Events/Event.cpp
 CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Events/Event.cpp
 
 CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.i: cmake_force
@@ -117,7 +173,7 @@ CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.s: cmake_force
 CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
 CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Events/EventBus.cpp
 CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Events/EventBus.cpp
 
 CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.i: cmake_force
@@ -131,7 +187,7 @@ CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.s: cmake_force
 CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
 CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Logging/Logger.cpp
 CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Logging/Logger.cpp
 
 CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.i: cmake_force
@@ -145,7 +201,7 @@ CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.s: cmake_force
 CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
 CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/ServiceManager.cpp
 CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/ServiceManager.cpp
 
 CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.i: cmake_force
@@ -159,7 +215,7 @@ CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.s: cmake_force
 CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
 CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Version/Version.cpp
 CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Version/Version.cpp
 
 CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.i: cmake_force
@@ -174,6 +230,10 @@ CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.s: cmake_force
 OpenDJOS_OBJECTS = \
 "CMakeFiles/OpenDJOS.dir/src/main.cpp.o" \
 "CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o" \
 "CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o" \
 "CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o" \
 "CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o" \
@@ -185,6 +245,10 @@ OpenDJOS_EXTERNAL_OBJECTS =
 
 OpenDJOS: CMakeFiles/OpenDJOS.dir/src/main.cpp.o
 OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o
 OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o
 OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o
 OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o
@@ -193,7 +257,7 @@ OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o
 OpenDJOS: CMakeFiles/OpenDJOS.dir/build.make
 OpenDJOS: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
 OpenDJOS: CMakeFiles/OpenDJOS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable OpenDJOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable OpenDJOS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenDJOS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

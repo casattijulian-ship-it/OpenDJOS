@@ -4,6 +4,10 @@ OpenDJOS: \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/OpenDJOS.dir/src/main.cpp.o \
   CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o \
   CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o \
   CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o \
   CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o \
@@ -47,6 +51,14 @@ OpenDJOS: \
 CMakeFiles/OpenDJOS.dir/src/main.cpp.o:
 
 CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o:
 
 CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o:
 

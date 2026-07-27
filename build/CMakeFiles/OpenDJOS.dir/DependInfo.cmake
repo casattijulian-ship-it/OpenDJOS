@@ -9,6 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/julian/Documentos/Development/OpenDJOS/src/Core/Application/Application.cpp" "CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.o" "gcc" "CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.o.d"
+  "/home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigData.cpp" "CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o" "gcc" "CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigData.cpp.o.d"
+  "/home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigLoader.cpp" "CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o" "gcc" "CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigLoader.cpp.o.d"
+  "/home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigValidator.cpp" "CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o" "gcc" "CMakeFiles/OpenDJOS.dir/src/Core/Configuration/ConfigValidator.cpp.o.d"
+  "/home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/Configuration.cpp" "CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o" "gcc" "CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o.d"
   "/home/julian/Documentos/Development/OpenDJOS/src/Core/Events/Event.cpp" "CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o" "gcc" "CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o.d"
   "/home/julian/Documentos/Development/OpenDJOS/src/Core/Events/EventBus.cpp" "CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o" "gcc" "CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o.d"
   "/home/julian/Documentos/Development/OpenDJOS/src/Core/Logging/Logger.cpp" "CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o" "gcc" "CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o.d"

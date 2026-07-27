@@ -1,5 +1,6 @@
 #include "Application.hpp"
 
+#include "../Configuration/Configuration.hpp"
 #include "../Logging/Logger.hpp"
 #include "../Version/Version.hpp"
 
@@ -31,6 +32,16 @@ bool Application::initialize()
     Logger::info("==================================");
     Logger::info(Version::fullVersion());
     Logger::info("Initializing OpenDJ OS...");
+
+    Logger::info("Loading configuration...");
+
+    if (!Configuration::instance().initialize())
+    {
+        Logger::error("Failed to load configuration.");
+        return false;
+    }
+
+    Logger::info("Configuration loaded successfully.");
     Logger::info("==================================");
 
     return true;

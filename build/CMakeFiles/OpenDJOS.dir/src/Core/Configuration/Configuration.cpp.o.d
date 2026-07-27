@@ -1,9 +1,8 @@
-CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.o: \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Application/Application.cpp \
+CMakeFiles/OpenDJOS.dir/src/Core/Configuration/Configuration.cpp.o: \
+ /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/Configuration.cpp \
  /usr/include/stdc-predef.h \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Application/Application.hpp \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Application/../Configuration/Configuration.hpp \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Application/../Configuration/ConfigData.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/Configuration.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigData.hpp \
  /usr/include/c++/15/string /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -124,7 +123,5 @@ CMakeFiles/OpenDJOS.dir/src/Core/Application/Application.cpp.o: \
  /usr/include/c++/15/bits/uses_allocator.h \
  /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple \
  /usr/include/c++/15/bits/ranges_util.h \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Application/../Configuration/ConfigLoader.hpp \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Application/../Configuration/ConfigValidator.hpp \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Application/../Logging/Logger.hpp \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Application/../Version/Version.hpp
+ /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigLoader.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Core/Configuration/ConfigValidator.hpp
