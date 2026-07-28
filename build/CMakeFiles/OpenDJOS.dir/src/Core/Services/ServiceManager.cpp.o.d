@@ -92,4 +92,170 @@ CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o: \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
  /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/array \
- /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/IService.hpp
+ /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/IService.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/MidiService.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiDeviceManager.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiDevice.hpp \
+ /usr/include/c++/15/string /usr/include/c++/15/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/c++locale.h \
+ /usr/include/c++/15/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/15/cctype \
+ /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/c++/15/bits/basic_string.h \
+ /usr/include/c++/15/ext/string_conversions.h /usr/include/c++/15/cstdlib \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/c++/15/bits/std_abs.h /usr/include/c++/15/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/c++/15/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/15/bits/charconv.h \
+ /usr/include/c++/15/bits/basic_string.tcc /usr/include/alsa/asoundlib.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/c++/15/stdlib.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/linux/falloc.h /usr/include/linux/openat2.h \
+ /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/bits/openat2.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_stat.h /usr/include/assert.h \
+ /usr/include/poll.h /usr/include/x86_64-linux-gnu/sys/poll.h \
+ /usr/include/x86_64-linux-gnu/bits/poll.h \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/alsa/asoundef.h /usr/include/alsa/version.h \
+ /usr/include/alsa/global.h /usr/include/alsa/input.h \
+ /usr/include/alsa/output.h /usr/include/alsa/error.h \
+ /usr/include/alsa/conf.h /usr/include/alsa/pcm.h \
+ /usr/include/alsa/rawmidi.h /usr/include/alsa/ump.h \
+ /usr/include/alsa/timer.h /usr/include/alsa/hwdep.h \
+ /usr/include/alsa/control.h /usr/include/alsa/mixer.h \
+ /usr/include/alsa/ump_msg.h /usr/include/alsa/seq_event.h \
+ /usr/include/alsa/seq.h /usr/include/alsa/seqmid.h \
+ /usr/include/alsa/seq_midi_event.h /usr/include/c++/15/optional \
+ /usr/include/c++/15/exception /usr/include/c++/15/bits/exception_ptr.h \
+ /usr/include/c++/15/bits/cxxabi_init_exception.h \
+ /usr/include/c++/15/bits/nested_exception.h \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiInput.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiEvent.hpp \
+ /usr/include/c++/15/cstdint \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiTypes.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiProcessor.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/../Mapping/ControllerMapper.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/../Mapping/ControllerEvent.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/../Mapping/../Profiles/ControllerProfile.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/../Mapping/../Profiles/ProfileEntry.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/../Mapping/../Profiles/ControllerAction.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/../Mapping/../Profiles/../Types/Button.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/../Mapping/../Profiles/../Types/ButtonState.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/../Mapping/../Profiles/../Types/Deck.hpp \
+ /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/../Mapping/../Profiles/../Types/Fader.hpp \
+ /usr/include/c++/15/memory /usr/include/c++/15/bits/stl_tempbuf.h \
+ /usr/include/c++/15/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/15/bits/align.h /usr/include/c++/15/bits/unique_ptr.h \
+ /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/ios \
+ /usr/include/c++/15/bits/ios_base.h /usr/include/c++/15/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/linux/sched/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/atomic_word.h \
+ /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/15/bits/locale_classes.h \
+ /usr/include/c++/15/bits/locale_classes.tcc \
+ /usr/include/c++/15/system_error \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h \
+ /usr/include/c++/15/stdexcept /usr/include/c++/15/streambuf \
+ /usr/include/c++/15/bits/streambuf.tcc \
+ /usr/include/c++/15/bits/basic_ios.h \
+ /usr/include/c++/15/bits/locale_facets.h /usr/include/c++/15/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_base.h \
+ /usr/include/c++/15/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_inline.h \
+ /usr/include/c++/15/bits/locale_facets.tcc \
+ /usr/include/c++/15/bits/basic_ios.tcc \
+ /usr/include/c++/15/bits/shared_ptr.h \
+ /usr/include/c++/15/bits/shared_ptr_base.h \
+ /usr/include/c++/15/bits/allocated_ptr.h \
+ /usr/include/c++/15/ext/concurrence.h \
+ /usr/include/c++/15/bits/shared_ptr_atomic.h \
+ /usr/include/c++/15/bits/atomic_base.h \
+ /usr/include/c++/15/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/15/bits/atomic_wait.h /usr/include/c++/15/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/syscall.h \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
+ /usr/include/c++/15/bits/std_mutex.h \
+ /usr/include/c++/15/backward/auto_ptr.h \
+ /usr/include/c++/15/bits/ranges_uninitialized.h \
+ /usr/include/c++/15/bits/ranges_algobase.h \
+ /usr/include/c++/15/pstl/glue_memory_defs.h \
+ /usr/include/c++/15/pstl/execution_defs.h

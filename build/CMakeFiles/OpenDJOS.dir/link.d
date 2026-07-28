@@ -12,7 +12,23 @@ OpenDJOS: \
   CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o \
   CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o \
   CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o \
   CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o \
+  CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o \
+  /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libasound.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -68,7 +84,39 @@ CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o:
 
 CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o:
 
+CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o:
+
 CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o:
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libasound.so:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 

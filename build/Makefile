@@ -129,6 +129,342 @@ OpenDJOS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/build
 .PHONY : OpenDJOS/fast
 
+src/Controllers/MIDI/MidiDevice.o: src/Controllers/MIDI/MidiDevice.cpp.o
+.PHONY : src/Controllers/MIDI/MidiDevice.o
+
+# target to build an object file
+src/Controllers/MIDI/MidiDevice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o
+.PHONY : src/Controllers/MIDI/MidiDevice.cpp.o
+
+src/Controllers/MIDI/MidiDevice.i: src/Controllers/MIDI/MidiDevice.cpp.i
+.PHONY : src/Controllers/MIDI/MidiDevice.i
+
+# target to preprocess a source file
+src/Controllers/MIDI/MidiDevice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.i
+.PHONY : src/Controllers/MIDI/MidiDevice.cpp.i
+
+src/Controllers/MIDI/MidiDevice.s: src/Controllers/MIDI/MidiDevice.cpp.s
+.PHONY : src/Controllers/MIDI/MidiDevice.s
+
+# target to generate assembly for a file
+src/Controllers/MIDI/MidiDevice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.s
+.PHONY : src/Controllers/MIDI/MidiDevice.cpp.s
+
+src/Controllers/MIDI/MidiDeviceManager.o: src/Controllers/MIDI/MidiDeviceManager.cpp.o
+.PHONY : src/Controllers/MIDI/MidiDeviceManager.o
+
+# target to build an object file
+src/Controllers/MIDI/MidiDeviceManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o
+.PHONY : src/Controllers/MIDI/MidiDeviceManager.cpp.o
+
+src/Controllers/MIDI/MidiDeviceManager.i: src/Controllers/MIDI/MidiDeviceManager.cpp.i
+.PHONY : src/Controllers/MIDI/MidiDeviceManager.i
+
+# target to preprocess a source file
+src/Controllers/MIDI/MidiDeviceManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.i
+.PHONY : src/Controllers/MIDI/MidiDeviceManager.cpp.i
+
+src/Controllers/MIDI/MidiDeviceManager.s: src/Controllers/MIDI/MidiDeviceManager.cpp.s
+.PHONY : src/Controllers/MIDI/MidiDeviceManager.s
+
+# target to generate assembly for a file
+src/Controllers/MIDI/MidiDeviceManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.s
+.PHONY : src/Controllers/MIDI/MidiDeviceManager.cpp.s
+
+src/Controllers/MIDI/MidiInput.o: src/Controllers/MIDI/MidiInput.cpp.o
+.PHONY : src/Controllers/MIDI/MidiInput.o
+
+# target to build an object file
+src/Controllers/MIDI/MidiInput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o
+.PHONY : src/Controllers/MIDI/MidiInput.cpp.o
+
+src/Controllers/MIDI/MidiInput.i: src/Controllers/MIDI/MidiInput.cpp.i
+.PHONY : src/Controllers/MIDI/MidiInput.i
+
+# target to preprocess a source file
+src/Controllers/MIDI/MidiInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.i
+.PHONY : src/Controllers/MIDI/MidiInput.cpp.i
+
+src/Controllers/MIDI/MidiInput.s: src/Controllers/MIDI/MidiInput.cpp.s
+.PHONY : src/Controllers/MIDI/MidiInput.s
+
+# target to generate assembly for a file
+src/Controllers/MIDI/MidiInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.s
+.PHONY : src/Controllers/MIDI/MidiInput.cpp.s
+
+src/Controllers/MIDI/MidiOutput.o: src/Controllers/MIDI/MidiOutput.cpp.o
+.PHONY : src/Controllers/MIDI/MidiOutput.o
+
+# target to build an object file
+src/Controllers/MIDI/MidiOutput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o
+.PHONY : src/Controllers/MIDI/MidiOutput.cpp.o
+
+src/Controllers/MIDI/MidiOutput.i: src/Controllers/MIDI/MidiOutput.cpp.i
+.PHONY : src/Controllers/MIDI/MidiOutput.i
+
+# target to preprocess a source file
+src/Controllers/MIDI/MidiOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.i
+.PHONY : src/Controllers/MIDI/MidiOutput.cpp.i
+
+src/Controllers/MIDI/MidiOutput.s: src/Controllers/MIDI/MidiOutput.cpp.s
+.PHONY : src/Controllers/MIDI/MidiOutput.s
+
+# target to generate assembly for a file
+src/Controllers/MIDI/MidiOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.s
+.PHONY : src/Controllers/MIDI/MidiOutput.cpp.s
+
+src/Controllers/MIDI/MidiProcessor.o: src/Controllers/MIDI/MidiProcessor.cpp.o
+.PHONY : src/Controllers/MIDI/MidiProcessor.o
+
+# target to build an object file
+src/Controllers/MIDI/MidiProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o
+.PHONY : src/Controllers/MIDI/MidiProcessor.cpp.o
+
+src/Controllers/MIDI/MidiProcessor.i: src/Controllers/MIDI/MidiProcessor.cpp.i
+.PHONY : src/Controllers/MIDI/MidiProcessor.i
+
+# target to preprocess a source file
+src/Controllers/MIDI/MidiProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.i
+.PHONY : src/Controllers/MIDI/MidiProcessor.cpp.i
+
+src/Controllers/MIDI/MidiProcessor.s: src/Controllers/MIDI/MidiProcessor.cpp.s
+.PHONY : src/Controllers/MIDI/MidiProcessor.s
+
+# target to generate assembly for a file
+src/Controllers/MIDI/MidiProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.s
+.PHONY : src/Controllers/MIDI/MidiProcessor.cpp.s
+
+src/Controllers/Mapping/ButtonEvent.o: src/Controllers/Mapping/ButtonEvent.cpp.o
+.PHONY : src/Controllers/Mapping/ButtonEvent.o
+
+# target to build an object file
+src/Controllers/Mapping/ButtonEvent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o
+.PHONY : src/Controllers/Mapping/ButtonEvent.cpp.o
+
+src/Controllers/Mapping/ButtonEvent.i: src/Controllers/Mapping/ButtonEvent.cpp.i
+.PHONY : src/Controllers/Mapping/ButtonEvent.i
+
+# target to preprocess a source file
+src/Controllers/Mapping/ButtonEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.i
+.PHONY : src/Controllers/Mapping/ButtonEvent.cpp.i
+
+src/Controllers/Mapping/ButtonEvent.s: src/Controllers/Mapping/ButtonEvent.cpp.s
+.PHONY : src/Controllers/Mapping/ButtonEvent.s
+
+# target to generate assembly for a file
+src/Controllers/Mapping/ButtonEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.s
+.PHONY : src/Controllers/Mapping/ButtonEvent.cpp.s
+
+src/Controllers/Mapping/ControllerEvent.o: src/Controllers/Mapping/ControllerEvent.cpp.o
+.PHONY : src/Controllers/Mapping/ControllerEvent.o
+
+# target to build an object file
+src/Controllers/Mapping/ControllerEvent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o
+.PHONY : src/Controllers/Mapping/ControllerEvent.cpp.o
+
+src/Controllers/Mapping/ControllerEvent.i: src/Controllers/Mapping/ControllerEvent.cpp.i
+.PHONY : src/Controllers/Mapping/ControllerEvent.i
+
+# target to preprocess a source file
+src/Controllers/Mapping/ControllerEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.i
+.PHONY : src/Controllers/Mapping/ControllerEvent.cpp.i
+
+src/Controllers/Mapping/ControllerEvent.s: src/Controllers/Mapping/ControllerEvent.cpp.s
+.PHONY : src/Controllers/Mapping/ControllerEvent.s
+
+# target to generate assembly for a file
+src/Controllers/Mapping/ControllerEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.s
+.PHONY : src/Controllers/Mapping/ControllerEvent.cpp.s
+
+src/Controllers/Mapping/ControllerMapper.o: src/Controllers/Mapping/ControllerMapper.cpp.o
+.PHONY : src/Controllers/Mapping/ControllerMapper.o
+
+# target to build an object file
+src/Controllers/Mapping/ControllerMapper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o
+.PHONY : src/Controllers/Mapping/ControllerMapper.cpp.o
+
+src/Controllers/Mapping/ControllerMapper.i: src/Controllers/Mapping/ControllerMapper.cpp.i
+.PHONY : src/Controllers/Mapping/ControllerMapper.i
+
+# target to preprocess a source file
+src/Controllers/Mapping/ControllerMapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.i
+.PHONY : src/Controllers/Mapping/ControllerMapper.cpp.i
+
+src/Controllers/Mapping/ControllerMapper.s: src/Controllers/Mapping/ControllerMapper.cpp.s
+.PHONY : src/Controllers/Mapping/ControllerMapper.s
+
+# target to generate assembly for a file
+src/Controllers/Mapping/ControllerMapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.s
+.PHONY : src/Controllers/Mapping/ControllerMapper.cpp.s
+
+src/Controllers/Mapping/FaderEvent.o: src/Controllers/Mapping/FaderEvent.cpp.o
+.PHONY : src/Controllers/Mapping/FaderEvent.o
+
+# target to build an object file
+src/Controllers/Mapping/FaderEvent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o
+.PHONY : src/Controllers/Mapping/FaderEvent.cpp.o
+
+src/Controllers/Mapping/FaderEvent.i: src/Controllers/Mapping/FaderEvent.cpp.i
+.PHONY : src/Controllers/Mapping/FaderEvent.i
+
+# target to preprocess a source file
+src/Controllers/Mapping/FaderEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.i
+.PHONY : src/Controllers/Mapping/FaderEvent.cpp.i
+
+src/Controllers/Mapping/FaderEvent.s: src/Controllers/Mapping/FaderEvent.cpp.s
+.PHONY : src/Controllers/Mapping/FaderEvent.s
+
+# target to generate assembly for a file
+src/Controllers/Mapping/FaderEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.s
+.PHONY : src/Controllers/Mapping/FaderEvent.cpp.s
+
+src/Controllers/Mapping/JogWheelEvent.o: src/Controllers/Mapping/JogWheelEvent.cpp.o
+.PHONY : src/Controllers/Mapping/JogWheelEvent.o
+
+# target to build an object file
+src/Controllers/Mapping/JogWheelEvent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o
+.PHONY : src/Controllers/Mapping/JogWheelEvent.cpp.o
+
+src/Controllers/Mapping/JogWheelEvent.i: src/Controllers/Mapping/JogWheelEvent.cpp.i
+.PHONY : src/Controllers/Mapping/JogWheelEvent.i
+
+# target to preprocess a source file
+src/Controllers/Mapping/JogWheelEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.i
+.PHONY : src/Controllers/Mapping/JogWheelEvent.cpp.i
+
+src/Controllers/Mapping/JogWheelEvent.s: src/Controllers/Mapping/JogWheelEvent.cpp.s
+.PHONY : src/Controllers/Mapping/JogWheelEvent.s
+
+# target to generate assembly for a file
+src/Controllers/Mapping/JogWheelEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.s
+.PHONY : src/Controllers/Mapping/JogWheelEvent.cpp.s
+
+src/Controllers/Mapping/KnobEvent.o: src/Controllers/Mapping/KnobEvent.cpp.o
+.PHONY : src/Controllers/Mapping/KnobEvent.o
+
+# target to build an object file
+src/Controllers/Mapping/KnobEvent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o
+.PHONY : src/Controllers/Mapping/KnobEvent.cpp.o
+
+src/Controllers/Mapping/KnobEvent.i: src/Controllers/Mapping/KnobEvent.cpp.i
+.PHONY : src/Controllers/Mapping/KnobEvent.i
+
+# target to preprocess a source file
+src/Controllers/Mapping/KnobEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.i
+.PHONY : src/Controllers/Mapping/KnobEvent.cpp.i
+
+src/Controllers/Mapping/KnobEvent.s: src/Controllers/Mapping/KnobEvent.cpp.s
+.PHONY : src/Controllers/Mapping/KnobEvent.s
+
+# target to generate assembly for a file
+src/Controllers/Mapping/KnobEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.s
+.PHONY : src/Controllers/Mapping/KnobEvent.cpp.s
+
+src/Controllers/Profiles/ControllerProfile.o: src/Controllers/Profiles/ControllerProfile.cpp.o
+.PHONY : src/Controllers/Profiles/ControllerProfile.o
+
+# target to build an object file
+src/Controllers/Profiles/ControllerProfile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o
+.PHONY : src/Controllers/Profiles/ControllerProfile.cpp.o
+
+src/Controllers/Profiles/ControllerProfile.i: src/Controllers/Profiles/ControllerProfile.cpp.i
+.PHONY : src/Controllers/Profiles/ControllerProfile.i
+
+# target to preprocess a source file
+src/Controllers/Profiles/ControllerProfile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.i
+.PHONY : src/Controllers/Profiles/ControllerProfile.cpp.i
+
+src/Controllers/Profiles/ControllerProfile.s: src/Controllers/Profiles/ControllerProfile.cpp.s
+.PHONY : src/Controllers/Profiles/ControllerProfile.s
+
+# target to generate assembly for a file
+src/Controllers/Profiles/ControllerProfile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.s
+.PHONY : src/Controllers/Profiles/ControllerProfile.cpp.s
+
+src/Controllers/Profiles/DDJ400Profile.o: src/Controllers/Profiles/DDJ400Profile.cpp.o
+.PHONY : src/Controllers/Profiles/DDJ400Profile.o
+
+# target to build an object file
+src/Controllers/Profiles/DDJ400Profile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o
+.PHONY : src/Controllers/Profiles/DDJ400Profile.cpp.o
+
+src/Controllers/Profiles/DDJ400Profile.i: src/Controllers/Profiles/DDJ400Profile.cpp.i
+.PHONY : src/Controllers/Profiles/DDJ400Profile.i
+
+# target to preprocess a source file
+src/Controllers/Profiles/DDJ400Profile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.i
+.PHONY : src/Controllers/Profiles/DDJ400Profile.cpp.i
+
+src/Controllers/Profiles/DDJ400Profile.s: src/Controllers/Profiles/DDJ400Profile.cpp.s
+.PHONY : src/Controllers/Profiles/DDJ400Profile.s
+
+# target to generate assembly for a file
+src/Controllers/Profiles/DDJ400Profile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.s
+.PHONY : src/Controllers/Profiles/DDJ400Profile.cpp.s
+
+src/Controllers/Profiles/ProfileLoader.o: src/Controllers/Profiles/ProfileLoader.cpp.o
+.PHONY : src/Controllers/Profiles/ProfileLoader.o
+
+# target to build an object file
+src/Controllers/Profiles/ProfileLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o
+.PHONY : src/Controllers/Profiles/ProfileLoader.cpp.o
+
+src/Controllers/Profiles/ProfileLoader.i: src/Controllers/Profiles/ProfileLoader.cpp.i
+.PHONY : src/Controllers/Profiles/ProfileLoader.i
+
+# target to preprocess a source file
+src/Controllers/Profiles/ProfileLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.i
+.PHONY : src/Controllers/Profiles/ProfileLoader.cpp.i
+
+src/Controllers/Profiles/ProfileLoader.s: src/Controllers/Profiles/ProfileLoader.cpp.s
+.PHONY : src/Controllers/Profiles/ProfileLoader.s
+
+# target to generate assembly for a file
+src/Controllers/Profiles/ProfileLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.s
+.PHONY : src/Controllers/Profiles/ProfileLoader.cpp.s
+
 src/Core/Application/Application.o: src/Core/Application/Application.cpp.o
 .PHONY : src/Core/Application/Application.o
 
@@ -321,6 +657,30 @@ src/Core/Logging/Logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.s
 .PHONY : src/Core/Logging/Logger.cpp.s
 
+src/Core/Services/MidiService.o: src/Core/Services/MidiService.cpp.o
+.PHONY : src/Core/Services/MidiService.o
+
+# target to build an object file
+src/Core/Services/MidiService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o
+.PHONY : src/Core/Services/MidiService.cpp.o
+
+src/Core/Services/MidiService.i: src/Core/Services/MidiService.cpp.i
+.PHONY : src/Core/Services/MidiService.i
+
+# target to preprocess a source file
+src/Core/Services/MidiService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.i
+.PHONY : src/Core/Services/MidiService.cpp.i
+
+src/Core/Services/MidiService.s: src/Core/Services/MidiService.cpp.s
+.PHONY : src/Core/Services/MidiService.s
+
+# target to generate assembly for a file
+src/Core/Services/MidiService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenDJOS.dir/build.make CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.s
+.PHONY : src/Core/Services/MidiService.cpp.s
+
 src/Core/Services/ServiceManager.o: src/Core/Services/ServiceManager.cpp.o
 .PHONY : src/Core/Services/ServiceManager.o
 
@@ -402,6 +762,48 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OpenDJOS"
+	@echo "... src/Controllers/MIDI/MidiDevice.o"
+	@echo "... src/Controllers/MIDI/MidiDevice.i"
+	@echo "... src/Controllers/MIDI/MidiDevice.s"
+	@echo "... src/Controllers/MIDI/MidiDeviceManager.o"
+	@echo "... src/Controllers/MIDI/MidiDeviceManager.i"
+	@echo "... src/Controllers/MIDI/MidiDeviceManager.s"
+	@echo "... src/Controllers/MIDI/MidiInput.o"
+	@echo "... src/Controllers/MIDI/MidiInput.i"
+	@echo "... src/Controllers/MIDI/MidiInput.s"
+	@echo "... src/Controllers/MIDI/MidiOutput.o"
+	@echo "... src/Controllers/MIDI/MidiOutput.i"
+	@echo "... src/Controllers/MIDI/MidiOutput.s"
+	@echo "... src/Controllers/MIDI/MidiProcessor.o"
+	@echo "... src/Controllers/MIDI/MidiProcessor.i"
+	@echo "... src/Controllers/MIDI/MidiProcessor.s"
+	@echo "... src/Controllers/Mapping/ButtonEvent.o"
+	@echo "... src/Controllers/Mapping/ButtonEvent.i"
+	@echo "... src/Controllers/Mapping/ButtonEvent.s"
+	@echo "... src/Controllers/Mapping/ControllerEvent.o"
+	@echo "... src/Controllers/Mapping/ControllerEvent.i"
+	@echo "... src/Controllers/Mapping/ControllerEvent.s"
+	@echo "... src/Controllers/Mapping/ControllerMapper.o"
+	@echo "... src/Controllers/Mapping/ControllerMapper.i"
+	@echo "... src/Controllers/Mapping/ControllerMapper.s"
+	@echo "... src/Controllers/Mapping/FaderEvent.o"
+	@echo "... src/Controllers/Mapping/FaderEvent.i"
+	@echo "... src/Controllers/Mapping/FaderEvent.s"
+	@echo "... src/Controllers/Mapping/JogWheelEvent.o"
+	@echo "... src/Controllers/Mapping/JogWheelEvent.i"
+	@echo "... src/Controllers/Mapping/JogWheelEvent.s"
+	@echo "... src/Controllers/Mapping/KnobEvent.o"
+	@echo "... src/Controllers/Mapping/KnobEvent.i"
+	@echo "... src/Controllers/Mapping/KnobEvent.s"
+	@echo "... src/Controllers/Profiles/ControllerProfile.o"
+	@echo "... src/Controllers/Profiles/ControllerProfile.i"
+	@echo "... src/Controllers/Profiles/ControllerProfile.s"
+	@echo "... src/Controllers/Profiles/DDJ400Profile.o"
+	@echo "... src/Controllers/Profiles/DDJ400Profile.i"
+	@echo "... src/Controllers/Profiles/DDJ400Profile.s"
+	@echo "... src/Controllers/Profiles/ProfileLoader.o"
+	@echo "... src/Controllers/Profiles/ProfileLoader.i"
+	@echo "... src/Controllers/Profiles/ProfileLoader.s"
 	@echo "... src/Core/Application/Application.o"
 	@echo "... src/Core/Application/Application.i"
 	@echo "... src/Core/Application/Application.s"
@@ -426,6 +828,9 @@ help:
 	@echo "... src/Core/Logging/Logger.o"
 	@echo "... src/Core/Logging/Logger.i"
 	@echo "... src/Core/Logging/Logger.s"
+	@echo "... src/Core/Services/MidiService.o"
+	@echo "... src/Core/Services/MidiService.i"
+	@echo "... src/Core/Services/MidiService.s"
 	@echo "... src/Core/Services/ServiceManager.o"
 	@echo "... src/Core/Services/ServiceManager.i"
 	@echo "... src/Core/Services/ServiceManager.s"

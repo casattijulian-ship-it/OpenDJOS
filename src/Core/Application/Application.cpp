@@ -4,6 +4,9 @@
 #include "../Logging/Logger.hpp"
 #include "../Version/Version.hpp"
 
+#include <chrono>
+#include <thread>
+
 namespace OpenDJ
 {
 
@@ -20,6 +23,13 @@ int Application::run()
     if (!initialize())
     {
         return -1;
+    }
+
+    m_running = true;
+
+    while (m_running)
+    {
+        update();
     }
 
     shutdown();
@@ -47,9 +57,14 @@ bool Application::initialize()
     return true;
 }
 
+void Application::update()
+{
+    std::this_thread::sleep_for(std::chrono::milliseconds(1));
+}
+
 void Application::shutdown()
 {
     Logger::info("Shutting down OpenDJ OS...");
 }
 
-}
+} // namespace OpenDJ

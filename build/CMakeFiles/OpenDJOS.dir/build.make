@@ -212,10 +212,24 @@ CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/ServiceManager.cpp -o CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.s
 
+CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/MidiService.cpp
+CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/MidiService.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/MidiService.cpp > CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Core/Services/MidiService.cpp -o CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.s
+
 CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
 CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Core/Version/Version.cpp
 CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Core/Version/Version.cpp
 
 CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.i: cmake_force
@@ -225,6 +239,202 @@ CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.i: cmake_force
 CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Core/Version/Version.cpp -o CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ControllerEvent.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ControllerEvent.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ControllerEvent.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ControllerEvent.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ControllerMapper.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ControllerMapper.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ControllerMapper.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ControllerMapper.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ButtonEvent.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ButtonEvent.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ButtonEvent.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/ButtonEvent.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/FaderEvent.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/FaderEvent.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/FaderEvent.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/FaderEvent.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/KnobEvent.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/KnobEvent.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/KnobEvent.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/KnobEvent.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/JogWheelEvent.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/JogWheelEvent.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/JogWheelEvent.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Mapping/JogWheelEvent.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiDevice.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiDevice.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiDevice.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiDevice.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiDeviceManager.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiDeviceManager.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiDeviceManager.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiDeviceManager.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiInput.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiInput.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiInput.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiInput.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiOutput.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiOutput.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiOutput.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiOutput.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiProcessor.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiProcessor.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiProcessor.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/MIDI/MidiProcessor.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/ControllerProfile.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/ControllerProfile.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/ControllerProfile.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/ControllerProfile.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/ProfileLoader.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/ProfileLoader.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/ProfileLoader.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/ProfileLoader.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.s
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o: CMakeFiles/OpenDJOS.dir/flags.make
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o: /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/DDJ400Profile.cpp
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o -MF CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o.d -o CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o -c /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/DDJ400Profile.cpp
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/DDJ400Profile.cpp > CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.i
+
+CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julian/Documentos/Development/OpenDJOS/src/Controllers/Profiles/DDJ400Profile.cpp -o CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.s
 
 # Object files for target OpenDJOS
 OpenDJOS_OBJECTS = \
@@ -238,7 +448,22 @@ OpenDJOS_OBJECTS = \
 "CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o" \
 "CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o" \
 "CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o" \
-"CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o"
+"CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o" \
+"CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o"
 
 # External object files for target OpenDJOS
 OpenDJOS_EXTERNAL_OBJECTS =
@@ -253,11 +478,26 @@ OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Events/Event.cpp.o
 OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Events/EventBus.cpp.o
 OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Logging/Logger.cpp.o
 OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Services/ServiceManager.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Services/MidiService.cpp.o
 OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Core/Version/Version.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerEvent.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ControllerMapper.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/ButtonEvent.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/FaderEvent.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/KnobEvent.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/Mapping/JogWheelEvent.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDevice.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiDeviceManager.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiInput.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiOutput.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/MIDI/MidiProcessor.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ControllerProfile.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/ProfileLoader.cpp.o
+OpenDJOS: CMakeFiles/OpenDJOS.dir/src/Controllers/Profiles/DDJ400Profile.cpp.o
 OpenDJOS: CMakeFiles/OpenDJOS.dir/build.make
 OpenDJOS: CMakeFiles/OpenDJOS.dir/compiler_depend.ts
 OpenDJOS: CMakeFiles/OpenDJOS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable OpenDJOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable OpenDJOS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenDJOS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

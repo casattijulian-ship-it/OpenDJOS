@@ -1,8 +1,19 @@
 #include "Core/Application/Application.hpp"
 
+#include <exception>
+#include <iostream>
+
 int main()
 {
-    OpenDJ::Application app;
+    try
+    {
+        OpenDJ::Application app;
 
-    return app.run();
+        return app.run();
+    }
+    catch (const std::exception& e)
+    {
+        std::cerr << e.what() << '\n';
+        return EXIT_FAILURE;
+    }
 }

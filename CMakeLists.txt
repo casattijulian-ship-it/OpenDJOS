@@ -11,6 +11,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # ============================================================
+# Dependencias
+# ============================================================
+
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(ALSA REQUIRED alsa)
+
+# ============================================================
 # Ejecutable principal
 # ============================================================
 
@@ -36,8 +43,36 @@ add_executable(OpenDJOS
     src/Core/Logging/Logger.cpp
 
     src/Core/Services/ServiceManager.cpp
+    src/Core/Services/MidiService.cpp
 
     src/Core/Version/Version.cpp
+
+    # ========================================================
+    # Controllers
+    # ========================================================
+
+    # Mapping
+    src/Controllers/Mapping/ControllerEvent.cpp
+    src/Controllers/Mapping/ControllerMapper.cpp
+    src/Controllers/Mapping/ButtonEvent.cpp
+    src/Controllers/Mapping/FaderEvent.cpp
+    src/Controllers/Mapping/KnobEvent.cpp
+    src/Controllers/Mapping/JogWheelEvent.cpp
+
+    # MIDI
+    src/Controllers/MIDI/MidiDevice.cpp
+    src/Controllers/MIDI/MidiDeviceManager.cpp
+    src/Controllers/MIDI/MidiInput.cpp
+    src/Controllers/MIDI/MidiOutput.cpp
+    src/Controllers/MIDI/MidiProcessor.cpp
+
+    # Profiles
+    src/Controllers/Profiles/ControllerProfile.cpp
+    src/Controllers/Profiles/ProfileLoader.cpp
+    src/Controllers/Profiles/DDJ400Profile.cpp
+
+    # Drivers
+    # (por ahora ControllerDriver es una interfaz, no necesita .cpp)
 )
 
 # ============================================================
@@ -46,6 +81,15 @@ add_executable(OpenDJOS
 
 target_include_directories(OpenDJOS PRIVATE
     src
+    ${ALSA_INCLUDE_DIRS}
+)
+
+# ============================================================
+# Enlace de bibliotecas
+# ============================================================
+
+target_link_libraries(OpenDJOS PRIVATE
+    ${ALSA_LIBRARIES}
 )
 
 # ============================================================

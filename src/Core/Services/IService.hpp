@@ -6,9 +6,12 @@ namespace OpenDJ
 class IService
 {
 public:
+
     virtual ~IService() = default;
 
     virtual bool initialize() = 0;
+
+    virtual void update() = 0;
 
     virtual void shutdown() = 0;
 };

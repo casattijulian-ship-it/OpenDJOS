@@ -12,6 +12,12 @@ bool EventBus::initialize()
     return true;
 }
 
+void EventBus::update()
+{
+    // Actualmente el EventBus es síncrono.
+    // No necesita realizar ninguna actualización por frame.
+}
+
 void EventBus::shutdown()
 {
     m_listeners.clear();
@@ -41,4 +47,4 @@ void EventBus::publish(const Event& event)
     }
 }
 
-}
+} // namespace OpenDJ

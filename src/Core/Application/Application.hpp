@@ -1,5 +1,7 @@
 #pragma once
 
+#include "../Services/ServiceManager.hpp"
+
 namespace OpenDJ
 {
 
@@ -17,7 +19,15 @@ private:
 
     bool initialize();
 
+    void update();
+
     void shutdown();
+
+private:
+
+    bool m_running = false;
+
+    ServiceManager m_serviceManager;
 };
 
-}
+} // namespace OpenDJ

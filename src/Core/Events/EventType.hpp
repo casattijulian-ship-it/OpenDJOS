@@ -10,10 +10,12 @@ enum class EventType
     // Controller
     ControllerConnected,
     ControllerDisconnected,
-    ButtonPressed,
-    ButtonReleased,
-    KnobMoved,
-    FaderMoved,
+
+    Button,
+    Fader,
+    Knob,
+    Encoder,
+    JogWheel,
 
     // Playback
     PlaybackStarted,

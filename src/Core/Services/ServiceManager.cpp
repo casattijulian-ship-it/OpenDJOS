@@ -13,6 +13,13 @@ bool ServiceManager::initialize()
     return true;
 }
 
+void ServiceManager::update()
+{
+    // Temporalmente no hay servicios registrados.
+    // Aquí se actualizarán MidiService, AudioService,
+    // LibraryService, DisplayService, etc.
+}
+
 void ServiceManager::shutdown()
 {
     m_eventBus.shutdown();
@@ -23,4 +30,4 @@ EventBus& ServiceManager::eventBus()
     return m_eventBus;
 }
 
-}
+} // namespace OpenDJ

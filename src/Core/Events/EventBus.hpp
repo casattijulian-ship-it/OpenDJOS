@@ -22,6 +22,8 @@ public:
 
     bool initialize() override;
 
+    void update() override;
+
     void shutdown() override;
 
     void subscribe(EventType type, EventListener listener);
@@ -33,4 +35,4 @@ private:
     std::unordered_map<EventType, std::vector<EventListener>> m_listeners;
 };
 
-}
+} // namespace OpenDJ
