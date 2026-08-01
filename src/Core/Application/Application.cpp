@@ -52,6 +52,17 @@ bool Application::initialize()
     }
 
     Logger::info("Configuration loaded successfully.");
+
+    Logger::info("Initializing services...");
+
+    if (!m_serviceManager.initialize())
+    {
+        Logger::error("Failed to initialize services.");
+        return false;
+    }
+
+    Logger::info("Services initialized successfully.");
+
     Logger::info("==================================");
 
     return true;
@@ -59,12 +70,17 @@ bool Application::initialize()
 
 void Application::update()
 {
-    std::this_thread::sleep_for(std::chrono::milliseconds(1));
+    m_serviceManager.update();
+
+    std::this_thread::sleep_for(
+        std::chrono::milliseconds(1));
 }
 
 void Application::shutdown()
 {
     Logger::info("Shutting down OpenDJ OS...");
+
+    m_serviceManager.shutdown();
 }
 
 } // namespace OpenDJ

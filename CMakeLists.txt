@@ -58,6 +58,8 @@ add_executable(OpenDJOS
     src/Controllers/Mapping/FaderEvent.cpp
     src/Controllers/Mapping/KnobEvent.cpp
     src/Controllers/Mapping/JogWheelEvent.cpp
+    src/Controllers/Mapping/JogTouchEvent.cpp
+    src/Controllers/Mapping/EncoderEvent.cpp
 
     # MIDI
     src/Controllers/MIDI/MidiDevice.cpp
@@ -65,6 +67,8 @@ add_executable(OpenDJOS
     src/Controllers/MIDI/MidiInput.cpp
     src/Controllers/MIDI/MidiOutput.cpp
     src/Controllers/MIDI/MidiProcessor.cpp
+    src/Controllers/MIDI/Midi14BitProcessor.cpp
+    src/Controllers/MIDI/MidiCapture.cpp
 
     # Profiles
     src/Controllers/Profiles/ControllerProfile.cpp

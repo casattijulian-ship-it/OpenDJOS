@@ -24,6 +24,7 @@ enum class Button
 
     LoopIn,
     LoopOut,
+    ReloopExit,
 
     BeatJumpForward,
     BeatJumpBackward

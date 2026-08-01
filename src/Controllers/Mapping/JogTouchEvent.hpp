@@ -3,24 +3,20 @@
 #include "ControllerEvent.hpp"
 
 #include "../Types/Deck.hpp"
-#include "../Types/Knob.hpp"
+#include "../Types/JogTouchState.hpp"
 
-#include "Core/Events/EventType.hpp"
-
-#include <cstdint>
 #include <string_view>
 
 namespace OpenDJ
 {
 
-class KnobEvent final : public ControllerEvent
+class JogTouchEvent final : public ControllerEvent
 {
 public:
 
-    KnobEvent(
+    JogTouchEvent(
         Deck deck,
-        Knob knob,
-        std::uint16_t value);
+        JogTouchState state);
 
     EventType type() const override;
 
@@ -28,17 +24,13 @@ public:
 
     Deck deck() const;
 
-    Knob knob() const;
-
-    std::uint16_t value() const;
+    JogTouchState state() const;
 
 private:
 
     Deck m_deck;
 
-    Knob m_knob;
-
-    std::uint16_t m_value;
+    JogTouchState m_state;
 };
 
 } // namespace OpenDJ

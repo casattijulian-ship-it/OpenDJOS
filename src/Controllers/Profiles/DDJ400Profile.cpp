@@ -6,6 +6,7 @@
 #include "../Types/ButtonState.hpp"
 #include "../Types/Deck.hpp"
 #include "../Types/Fader.hpp"
+#include "../Types/Knob.hpp"
 
 namespace OpenDJ
 {
@@ -13,13 +14,10 @@ namespace OpenDJ
 DDJ400Profile::DDJ400Profile()
 {
     // ============================================================
-    // TRANSPORT
+    // TRANSPORT - DECK A
     // ============================================================
 
-    // ------------------------------------------------------------
-    // Deck A - PLAY
-    // ------------------------------------------------------------
-
+    // PLAY
     addEntry({
         MidiMessageType::NoteOn,
         DDJ400::Channel::DeckA,
@@ -29,11 +27,11 @@ DDJ400Profile::DDJ400Profile()
             Deck::A,
             Button::Play,
             Fader::Channel,
+            Knob::Trim,
             ButtonState::Pressed,
             0
         }
     });
-
     addEntry({
         MidiMessageType::NoteOff,
         DDJ400::Channel::DeckA,
@@ -43,15 +41,203 @@ DDJ400Profile::DDJ400Profile()
             Deck::A,
             Button::Play,
             Fader::Channel,
+            Knob::Trim,
             ButtonState::Released,
             0
         }
     });
 
-    // ------------------------------------------------------------
-    // Deck B - PLAY
-    // ------------------------------------------------------------
+    // CUE
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::Cue,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::Cue,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
 
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::Cue,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::Cue,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // SYNC
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::BeatSync,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::Sync,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::BeatSync,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::Sync,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // LOOP IN
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::LoopIn,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::LoopIn,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::LoopIn,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::LoopIn,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // LOOP OUT
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::LoopOut,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::LoopOut,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::LoopOut,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::LoopOut,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // RELOOP / EXIT
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::ReloopExit,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::ReloopExit,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::ReloopExit,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::ReloopExit,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // SHIFT
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::Shift,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::Shift,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckA,
+        DDJ400::Transport::Shift,
+        {
+            ControllerActionType::Button,
+            Deck::A,
+            Button::Shift,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // ============================================================
+    // TRANSPORT - DECK B
+    // ============================================================
+
+    // PLAY
     addEntry({
         MidiMessageType::NoteOn,
         DDJ400::Channel::DeckB,
@@ -61,6 +247,7 @@ DDJ400Profile::DDJ400Profile()
             Deck::B,
             Button::Play,
             Fader::Channel,
+            Knob::Trim,
             ButtonState::Pressed,
             0
         }
@@ -75,10 +262,408 @@ DDJ400Profile::DDJ400Profile()
             Deck::B,
             Button::Play,
             Fader::Channel,
+            Knob::Trim,
             ButtonState::Released,
             0
         }
     });
+
+    // CUE
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::Cue,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::Cue,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::Cue,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::Cue,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // SYNC
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::BeatSync,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::Sync,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::BeatSync,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::Sync,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // LOOP IN
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::LoopIn,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::LoopIn,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::LoopIn,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::LoopIn,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // LOOP OUT
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::LoopOut,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::LoopOut,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::LoopOut,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::LoopOut,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // RELOOP / EXIT
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::ReloopExit,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::ReloopExit,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::ReloopExit,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::ReloopExit,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // SHIFT
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::Shift,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::Shift,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Pressed,
+            0
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOff,
+        DDJ400::Channel::DeckB,
+        DDJ400::Transport::Shift,
+        {
+            ControllerActionType::Button,
+            Deck::B,
+            Button::Shift,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // ============================================================
+    // MIXER - CHANNEL FADERS
+    // ============================================================
+
+    // Deck A - CHANNEL FADER
+    // MIDI 14-bit: MSB CC 19 / LSB CC 51
+    // El perfil identifica el control por el CC base (MSB = 19).
+    addEntry({
+        MidiMessageType::ControlChange,
+        DDJ400::Channel::DeckA,
+        DDJ400::Mixer::ChannelFader,
+        {
+            ControllerActionType::Fader,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+    // Deck B - CHANNEL FADER
+    // MIDI 14-bit: MSB CC 19 / LSB CC 51
+    addEntry({
+        MidiMessageType::ControlChange,
+        DDJ400::Channel::DeckB,
+        DDJ400::Mixer::ChannelFader,
+        {
+            ControllerActionType::Fader,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0
+        }
+    });
+
+
+    // ============================================================
+    // JOG WHEELS - NORMAL ROTATION
+    // ============================================================
+
+    // JOG ROTATION - DECK A
+    addEntry({
+        MidiMessageType::ControlChange,
+        DDJ400::Channel::DeckA,
+        DDJ400::Jog::Rotation,
+        {
+            ControllerActionType::JogWheel,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released
+        }
+    });
+
+    // JOG ROTATION - DECK B
+    addEntry({
+        MidiMessageType::ControlChange,
+        DDJ400::Channel::DeckB,
+        DDJ400::Jog::Rotation,
+        {
+            ControllerActionType::JogWheel,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released
+        }
+    });
+
+
+    // ============================================================
+    // JOG WHEELS - SCRATCH ROTATION
+    // ============================================================
+
+    // SCRATCH ROTATION - DECK A
+    addEntry({
+        MidiMessageType::ControlChange,
+        DDJ400::Channel::DeckA,
+        DDJ400::Jog::ScratchRotation,
+        {
+            ControllerActionType::JogWheel,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Scratch,
+            JogTouchState::Released
+        }
+    });
+
+    // SCRATCH ROTATION - DECK B
+    addEntry({
+        MidiMessageType::ControlChange,
+        DDJ400::Channel::DeckB,
+        DDJ400::Jog::ScratchRotation,
+        {
+            ControllerActionType::JogWheel,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Scratch,
+            JogTouchState::Released
+        }
+    });
+
+        // ============================================================
+    // JOG WHEELS - SEARCH ROTATION
+    // SHIFT + JOG
+    // ============================================================
+
+    // SEARCH ROTATION - DECK A
+    addEntry({
+        MidiMessageType::ControlChange,
+        DDJ400::Channel::DeckA,
+        DDJ400::Jog::SearchRotation,
+        {
+            ControllerActionType::JogWheel,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Search,
+            JogTouchState::Released
+        }
+    });
+
+    // SEARCH ROTATION - DECK B
+    addEntry({
+        MidiMessageType::ControlChange,
+        DDJ400::Channel::DeckB,
+        DDJ400::Jog::SearchRotation,
+        {
+            ControllerActionType::JogWheel,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Search,
+            JogTouchState::Released
+        }
+    });
+    
+    // ============================================================
+    // JOG WHEELS - TOUCH
+    // ============================================================
+
+    // TOUCH - DECK A
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckA,
+        DDJ400::Jog::Touch,
+        {
+            ControllerActionType::JogTouch,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released
+        }
+    });
+
+    // TOUCH - DECK B
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::DeckB,
+        DDJ400::Jog::Touch,
+        {
+            ControllerActionType::JogTouch,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released
+        }
+    });
+
 }
 
 } // namespace OpenDJ

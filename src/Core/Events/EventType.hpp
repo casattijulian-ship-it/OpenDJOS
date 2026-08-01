@@ -16,6 +16,7 @@ enum class EventType
     Knob,
     Encoder,
     JogWheel,
+    JogTouch,
 
     // Playback
     PlaybackStarted,
@@ -26,4 +27,4 @@ enum class EventType
     LibraryUpdated
 };
 
-}
+} // namespace OpenDJ

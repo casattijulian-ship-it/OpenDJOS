@@ -2,8 +2,7 @@
 
 #include "ControllerEvent.hpp"
 
-#include "../Types/Deck.hpp"
-#include "../Types/JogWheel.hpp"
+#include "../Types/Encoder.hpp"
 
 #include <cstdint>
 #include <string_view>
@@ -11,30 +10,25 @@
 namespace OpenDJ
 {
 
-class JogWheelEvent final : public ControllerEvent
+class EncoderEvent final : public ControllerEvent
 {
 public:
 
-    JogWheelEvent(
-        Deck deck,
-        JogWheel jogWheel,
+    EncoderEvent(
+        Encoder encoder,
         std::int16_t delta);
 
     EventType type() const override;
 
     std::string_view name() const override;
 
-    Deck deck() const;
-
-    JogWheel jogWheel() const;
+    Encoder encoder() const;
 
     std::int16_t delta() const;
 
 private:
 
-    Deck m_deck;
-
-    JogWheel m_jogWheel;
+    Encoder m_encoder;
 
     std::int16_t m_delta;
 };

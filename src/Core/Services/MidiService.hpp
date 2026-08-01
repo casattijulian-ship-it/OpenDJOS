@@ -2,9 +2,11 @@
 
 #include "IService.hpp"
 
+#include "Controllers/MIDI/Midi14BitProcessor.hpp"
 #include "Controllers/MIDI/MidiDeviceManager.hpp"
 #include "Controllers/MIDI/MidiInput.hpp"
 #include "Controllers/MIDI/MidiProcessor.hpp"
+#include "Controllers/MIDI/MidiCapture.hpp"
 
 #include "Controllers/Profiles/ControllerProfile.hpp"
 
@@ -36,6 +38,10 @@ private:
     std::unique_ptr<ControllerProfile> m_profile;
 
     std::unique_ptr<MidiProcessor> m_processor;
+
+    Midi14BitProcessor m_14BitProcessor;
+
+    MidiCapture m_capture;
 };
 
 } // namespace OpenDJ

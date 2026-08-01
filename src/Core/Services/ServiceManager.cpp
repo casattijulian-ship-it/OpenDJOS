@@ -5,8 +5,17 @@ namespace OpenDJ
 
 bool ServiceManager::initialize()
 {
+    // Inicializar EventBus
     if (!m_eventBus.initialize())
     {
+        return false;
+    }
+
+    // Inicializar servicio MIDI
+    if (!m_midiService.initialize())
+    {
+        m_eventBus.shutdown();
+
         return false;
     }
 
@@ -15,13 +24,13 @@ bool ServiceManager::initialize()
 
 void ServiceManager::update()
 {
-    // Temporalmente no hay servicios registrados.
-    // Aquí se actualizarán MidiService, AudioService,
-    // LibraryService, DisplayService, etc.
+    m_midiService.update();
 }
 
 void ServiceManager::shutdown()
 {
+    m_midiService.shutdown();
+
     m_eventBus.shutdown();
 }
 

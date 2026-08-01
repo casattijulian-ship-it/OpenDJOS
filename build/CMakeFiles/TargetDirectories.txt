@@ -1,3 +1,0 @@
-/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles/OpenDJOS.dir
-/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles/edit_cache.dir
-/home/julian/Documentos/Development/OpenDJOS/build/CMakeFiles/rebuild_cache.dir

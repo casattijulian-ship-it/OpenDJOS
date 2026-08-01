@@ -3,6 +3,7 @@
 #include "ControllerEvent.hpp"
 
 #include "../MIDI/MidiEvent.hpp"
+#include "../MIDI/Midi14BitProcessor.hpp"
 #include "../Profiles/ControllerProfile.hpp"
 
 #include <memory>
@@ -16,7 +17,11 @@ public:
 
     ControllerMapper(const ControllerProfile& profile);
 
-    std::unique_ptr<ControllerEvent> map(const MidiEvent& event) const;
+    std::unique_ptr<ControllerEvent> map(
+        const MidiEvent& event) const;
+
+    std::unique_ptr<ControllerEvent> map(
+        const Midi14BitEvent& event) const;
 
 private:
 

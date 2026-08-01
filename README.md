@@ -1,0 +1,40 @@
+DDJ400 MIDI MASTER MAP
+
+MIXER
+ ├── TRIM A/B
+ ├── EQ HIGH A/B
+ ├── EQ MID A/B
+ ├── EQ LOW A/B
+ ├── FILTER A/B
+ ├── CHANNEL FADER A/B
+ └── CROSSFADER
+
+DECK
+ ├── PLAY
+ ├── CUE
+ ├── SYNC
+ ├── SHIFT
+ ├── TEMPO
+ ├── JOG
+ ├── LOOP
+ └── CUE/LOOP CALL
+
+PERFORMANCE
+ ├── PAD 1–8
+ ├── HOT CUE
+ ├── BEAT LOOP
+ ├── BEAT JUMP
+ └── SAMPLER
+
+BROWSER
+ ├── ROTATE
+ ├── PRESS
+ ├── LOAD A
+ └── LOAD B
+
+FX
+ ├── BEAT <
+ ├── BEAT >
+ ├── FX SELECT
+ ├── CH SELECT
+ └── FX ON/OFF

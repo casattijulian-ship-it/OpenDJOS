@@ -44,8 +44,16 @@ namespace Transport
 
 namespace Jog
 {
+    // Touch ON/OFF
     constexpr std::uint8_t Touch = 54;
+
+    // Rotación normal / pitch bend
     constexpr std::uint8_t Rotation = 33;
+
+    // Rotación de la superficie superior / scratch
+    constexpr std::uint8_t ScratchRotation = 34;
+        // SHIFT + JOG / búsqueda rápida en la pista
+    constexpr std::uint8_t SearchRotation = 41;
 }
 
 // ============================================================

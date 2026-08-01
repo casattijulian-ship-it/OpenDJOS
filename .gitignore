@@ -1,0 +1,18 @@
+# ============================================================
+# OpenDJ OS - Git Ignore
+# ============================================================
+
+# CMake / compilación
+build/
+
+# Archivos objeto
+*.o
+*.o.d
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*~

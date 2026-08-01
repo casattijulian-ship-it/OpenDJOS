@@ -3,11 +3,10 @@
 namespace OpenDJ
 {
 
-enum class JogWheel
+enum class JogTouchState
 {
-    Platter,
-    Scratch,
-    Search
+    Released = 0,
+    Touched
 };
 
 } // namespace OpenDJ
