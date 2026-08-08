@@ -60,6 +60,7 @@ add_executable(OpenDJOS
     src/Controllers/Mapping/JogWheelEvent.cpp
     src/Controllers/Mapping/JogTouchEvent.cpp
     src/Controllers/Mapping/EncoderEvent.cpp
+    src/Controllers/Mapping/PerformancePadEvent.cpp
 
     # MIDI
     src/Controllers/MIDI/MidiDevice.cpp

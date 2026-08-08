@@ -7,6 +7,8 @@
 #include "../Types/Deck.hpp"
 #include "../Types/Fader.hpp"
 #include "../Types/Knob.hpp"
+#include "../Types/PerformancePad.hpp"
+#include "../Types/PadMode.hpp"
 
 namespace OpenDJ
 {
@@ -455,6 +457,332 @@ DDJ400Profile::DDJ400Profile()
     });
 
     // ============================================================
+    // PERFORMANCE PADS - HOT CUE
+    // ============================================================
+
+    // DECK A
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadA,
+        DDJ400::PerformancePad::HotCueBase + 0,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad1,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadA,
+        DDJ400::PerformancePad::HotCueBase + 1,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad2,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadA,
+        DDJ400::PerformancePad::HotCueBase + 2,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad3,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadA,
+        DDJ400::PerformancePad::HotCueBase + 3,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad4,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadA,
+        DDJ400::PerformancePad::HotCueBase + 4,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad5,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadA,
+        DDJ400::PerformancePad::HotCueBase + 5,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad6,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadA,
+        DDJ400::PerformancePad::HotCueBase + 6,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad7,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadA,
+        DDJ400::PerformancePad::HotCueBase + 7,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::A,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad8,
+            PadMode::HotCue
+        }
+    });
+
+    // DECK B
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadB,
+        DDJ400::PerformancePad::HotCueBase + 0,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad1,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadB,
+        DDJ400::PerformancePad::HotCueBase + 1,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad2,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadB,
+        DDJ400::PerformancePad::HotCueBase + 2,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad3,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadB,
+        DDJ400::PerformancePad::HotCueBase + 3,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad4,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadB,
+        DDJ400::PerformancePad::HotCueBase + 4,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad5,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadB,
+        DDJ400::PerformancePad::HotCueBase + 5,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad6,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadB,
+        DDJ400::PerformancePad::HotCueBase + 6,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad7,
+            PadMode::HotCue
+        }
+    });
+
+    addEntry({
+        MidiMessageType::NoteOn,
+        DDJ400::Channel::PadB,
+        DDJ400::PerformancePad::HotCueBase + 7,
+        {
+            ControllerActionType::PerformancePad,
+            Deck::B,
+            Button::Unknown,
+            Fader::Channel,
+            Knob::Trim,
+            ButtonState::Released,
+            0,
+            Encoder::Browse,
+            JogWheel::Platter,
+            JogTouchState::Released,
+            PerformancePad::Pad8,
+            PadMode::HotCue
+        }
+    });
+
+    // ============================================================
     // MIXER - CHANNEL FADERS
     // ============================================================
 
@@ -492,7 +820,6 @@ DDJ400Profile::DDJ400Profile()
             0
         }
     });
-
 
     // ============================================================
     // JOG WHEELS - NORMAL ROTATION
@@ -536,7 +863,6 @@ DDJ400Profile::DDJ400Profile()
         }
     });
 
-
     // ============================================================
     // JOG WHEELS - SCRATCH ROTATION
     // ============================================================
@@ -579,7 +905,7 @@ DDJ400Profile::DDJ400Profile()
         }
     });
 
-        // ============================================================
+    // ============================================================
     // JOG WHEELS - SEARCH ROTATION
     // SHIFT + JOG
     // ============================================================
@@ -621,7 +947,7 @@ DDJ400Profile::DDJ400Profile()
             JogTouchState::Released
         }
     });
-    
+
     // ============================================================
     // JOG WHEELS - TOUCH
     // ============================================================
@@ -663,7 +989,6 @@ DDJ400Profile::DDJ400Profile()
             JogTouchState::Released
         }
     });
-
 }
 
 } // namespace OpenDJ

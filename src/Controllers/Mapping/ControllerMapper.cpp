@@ -6,6 +6,7 @@
 #include "EncoderEvent.hpp"
 #include "JogWheelEvent.hpp"
 #include "JogTouchEvent.hpp"
+#include "PerformancePadEvent.hpp"
 
 #include <cstdint>
 
@@ -178,12 +179,32 @@ std::unique_ptr<ControllerEvent> ControllerMapper::map(
                 state);
         }
 
+        // ====================================================
+        // PERFORMANCE PAD
+        // ====================================================
+
+        case ControllerActionType::PerformancePad:
+        {
+            const auto state =
+                event.value > 0
+                    ? ButtonState::Pressed
+                    : ButtonState::Released;
+
+            return std::make_unique<PerformancePadEvent>(
+                entry->action.deck,
+                entry->action.performancePad,
+                entry->action.padMode,
+                state);
+        }
+
         default:
         {
             return nullptr;
         }
     }
 }
+
+
 
 // ============================================================
 // MIDI 14-BIT

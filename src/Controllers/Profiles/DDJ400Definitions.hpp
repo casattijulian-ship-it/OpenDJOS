@@ -57,6 +57,29 @@ namespace Jog
 }
 
 // ============================================================
+// Performance Pads
+// ============================================================
+
+namespace PerformancePad
+{
+    // Pad MIDI channels:
+    // Deck A -> Channel::PadA
+    // Deck B -> Channel::PadB
+    //
+    // Cada modo ocupa un bloque de 8 pads dentro
+    // de un rango de 16 números MIDI.
+
+    constexpr std::uint8_t HotCueBase = 0;
+    constexpr std::uint8_t PadFX1Base = 16;
+    constexpr std::uint8_t BeatJumpBase = 32;
+    constexpr std::uint8_t SamplerBase = 48;
+    constexpr std::uint8_t KeyboardBase = 64;
+    constexpr std::uint8_t PadFX2Base = 80;
+    constexpr std::uint8_t BeatLoopBase = 96;
+    constexpr std::uint8_t KeyShiftBase = 112;
+}
+
+// ============================================================
 // Tempo
 // ============================================================
 

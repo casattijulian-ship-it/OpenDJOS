@@ -17,6 +17,7 @@ enum class EventType
     Encoder,
     JogWheel,
     JogTouch,
+    PerformancePad,
 
     // Playback
     PlaybackStarted,

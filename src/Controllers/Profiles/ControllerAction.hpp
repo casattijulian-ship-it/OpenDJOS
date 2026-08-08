@@ -8,6 +8,8 @@
 #include "../Types/Encoder.hpp"
 #include "../Types/JogWheel.hpp"
 #include "../Types/JogTouchState.hpp"
+#include "../Types/PerformancePad.hpp"
+#include "../Types/PadMode.hpp"
 
 #include <cstdint>
 
@@ -23,7 +25,9 @@ enum class ControllerActionType
     Knob,
     Encoder,
     JogWheel,
-    JogTouch
+    JogTouch,
+
+    PerformancePad
 };
 
 struct ControllerAction
@@ -50,6 +54,10 @@ struct ControllerAction
     JogWheel jogWheel = JogWheel::Platter;
 
     JogTouchState jogTouchState = JogTouchState::Released;
+
+    PerformancePad performancePad = PerformancePad::Pad1;
+
+    PadMode padMode = PadMode::HotCue;
 };
 
 } // namespace OpenDJ
