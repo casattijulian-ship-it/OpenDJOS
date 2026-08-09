@@ -1760,6 +1760,984 @@ addEntry({
     }
 });
 
+// ============================================================
+// PERFORMANCE PADS - PAD FX 1
+// ============================================================
+
+// DECK A
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX1Base + 0,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad1,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX1Base + 1,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad2,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX1Base + 2,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad3,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX1Base + 3,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad4,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX1Base + 4,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad5,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX1Base + 5,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad6,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX1Base + 6,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad7,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX1Base + 7,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad8,
+        PadMode::PadFX1
+    }
+});
+
+// DECK B
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX1Base + 0,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad1,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX1Base + 1,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad2,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX1Base + 2,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad3,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX1Base + 3,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad4,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX1Base + 4,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad5,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX1Base + 5,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad6,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX1Base + 6,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad7,
+        PadMode::PadFX1
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX1Base + 7,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad8,
+        PadMode::PadFX1
+    }
+});
+
+// ============================================================
+// PERFORMANCE PADS - PAD FX 2
+// ============================================================
+
+// DECK A
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX2Base + 0,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad1,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX2Base + 1,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad2,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX2Base + 2,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad3,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX2Base + 3,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad4,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX2Base + 4,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad5,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX2Base + 5,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad6,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX2Base + 6,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad7,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::PadFX2Base + 7,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad8,
+        PadMode::PadFX2
+    }
+});
+
+// DECK B
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX2Base + 0,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad1,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX2Base + 1,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad2,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX2Base + 2,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad3,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX2Base + 3,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad4,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX2Base + 4,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad5,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX2Base + 5,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad6,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX2Base + 6,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad7,
+        PadMode::PadFX2
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::PadFX2Base + 7,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad8,
+        PadMode::PadFX2
+    }
+});
+
+// ============================================================
+// PERFORMANCE PADS - KEY SHIFT
+// ============================================================
+
+// DECK A
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::KeyShiftBase + 0,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad1,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::KeyShiftBase + 1,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad2,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::KeyShiftBase + 2,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad3,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::KeyShiftBase + 3,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad4,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::KeyShiftBase + 4,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad5,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::KeyShiftBase + 5,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad6,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::KeyShiftBase + 6,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad7,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadA,
+    DDJ400::PerformancePad::KeyShiftBase + 7,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::A,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad8,
+        PadMode::KeyShift
+    }
+});
+
+// DECK B
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::KeyShiftBase + 0,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad1,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::KeyShiftBase + 1,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad2,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::KeyShiftBase + 2,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad3,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::KeyShiftBase + 3,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad4,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::KeyShiftBase + 4,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad5,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::KeyShiftBase + 5,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad6,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::KeyShiftBase + 6,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad7,
+        PadMode::KeyShift
+    }
+});
+
+addEntry({
+    MidiMessageType::NoteOn,
+    DDJ400::Channel::PadB,
+    DDJ400::PerformancePad::KeyShiftBase + 7,
+    {
+        ControllerActionType::PerformancePad,
+        Deck::B,
+        Button::Unknown,
+        Fader::Channel,
+        Knob::Trim,
+        ButtonState::Released,
+        0,
+        Encoder::Browse,
+        JogWheel::Platter,
+        JogTouchState::Released,
+        PerformancePad::Pad8,
+        PadMode::KeyShift
+    }
+});
+
     // ============================================================
 // PERFORMANCE PADS - BEAT LOOP
 // ============================================================
