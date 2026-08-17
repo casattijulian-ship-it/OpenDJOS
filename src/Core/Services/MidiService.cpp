@@ -10,7 +10,6 @@
 #include "Controllers/Mapping/EncoderEvent.hpp"
 #include "Controllers/Mapping/JogWheelEvent.hpp"
 #include "Controllers/Mapping/JogTouchEvent.hpp"
-#include "Controllers/Mapping/PerformancePadEvent.hpp"
 
 #include <exception>
 #include <memory>
@@ -18,6 +17,11 @@
 
 namespace OpenDJ
 {
+
+MidiService::MidiService(EventBus& eventBus)
+    : m_eventBus(eventBus)
+{
+}
 
 bool MidiService::initialize()
 {
@@ -55,7 +59,8 @@ bool MidiService::initialize()
                 }
                 else
                 {
-                    Logger::warning("Failed to open DDJ-400.");
+                    Logger::warning(
+                        "Failed to open DDJ-400.");
 
                     m_input.reset();
                     m_processor.reset();
@@ -68,7 +73,8 @@ bool MidiService::initialize()
 
         if (!m_input)
         {
-            Logger::warning("No DDJ-400 controller found.");
+            Logger::warning(
+                "No DDJ-400 controller found.");
         }
 
         Logger::info("MidiService initialized.");
@@ -130,23 +136,35 @@ void MidiService::update()
             Logger::debug(
                 "MIDI 14-BIT -> channel=" +
                 std::to_string(
-                    static_cast<int>(event14Bit->channel)) +
+                    static_cast<int>(
+                        event14Bit->channel)) +
                 " number=" +
                 std::to_string(
-                    static_cast<int>(event14Bit->number)) +
+                    static_cast<int>(
+                        event14Bit->number)) +
                 " value=" +
-                std::to_string(event14Bit->value));
+                std::to_string(
+                    event14Bit->value));
 
             auto controllerEvent14Bit =
                 m_processor->process(*event14Bit);
 
             if (controllerEvent14Bit)
             {
-                // ================================================
-                // FADER EVENT
-                // ================================================
+                // =================================================
+                // EVENT BUS
+                // =================================================
 
-                if (controllerEvent14Bit->type() == EventType::Fader)
+                m_eventBus.publish(
+                    *controllerEvent14Bit);
+
+                // =================================================
+                // FADER EVENT
+                // =================================================
+
+                if (
+                    controllerEvent14Bit->type() ==
+                    EventType::Fader)
                 {
                     const auto* faderEvent =
                         dynamic_cast<const FaderEvent*>(
@@ -158,13 +176,18 @@ void MidiService::update()
                         {
                             case Fader::Channel:
                             {
-                                std::string deck = "Unknown";
+                                std::string deck =
+                                    "Unknown";
 
-                                if (faderEvent->deck() == Deck::A)
+                                if (
+                                    faderEvent->deck() ==
+                                    Deck::A)
                                 {
                                     deck = "A";
                                 }
-                                else if (faderEvent->deck() == Deck::B)
+                                else if (
+                                    faderEvent->deck() ==
+                                    Deck::B)
                                 {
                                     deck = "B";
                                 }
@@ -191,13 +214,18 @@ void MidiService::update()
 
                             case Fader::Tempo:
                             {
-                                std::string deck = "Unknown";
+                                std::string deck =
+                                    "Unknown";
 
-                                if (faderEvent->deck() == Deck::A)
+                                if (
+                                    faderEvent->deck() ==
+                                    Deck::A)
                                 {
                                     deck = "A";
                                 }
-                                else if (faderEvent->deck() == Deck::B)
+                                else if (
+                                    faderEvent->deck() ==
+                                    Deck::B)
                                 {
                                     deck = "B";
                                 }
@@ -215,9 +243,9 @@ void MidiService::update()
                     }
                 }
 
-                // ================================================
+                // =================================================
                 // KNOB EVENT
-                // ================================================
+                // =================================================
 
                 else if (
                     controllerEvent14Bit->type() ==
@@ -229,18 +257,24 @@ void MidiService::update()
 
                     if (knobEvent)
                     {
-                        std::string deck = "Unknown";
+                        std::string deck =
+                            "Unknown";
 
-                        if (knobEvent->deck() == Deck::A)
+                        if (
+                            knobEvent->deck() ==
+                            Deck::A)
                         {
                             deck = "A";
                         }
-                        else if (knobEvent->deck() == Deck::B)
+                        else if (
+                            knobEvent->deck() ==
+                            Deck::B)
                         {
                             deck = "B";
                         }
 
-                        std::string knob = "UNKNOWN KNOB";
+                        std::string knob =
+                            "UNKNOWN KNOB";
 
                         switch (knobEvent->knob())
                         {
@@ -290,10 +324,19 @@ void MidiService::update()
         }
 
         // ========================================================
+        // EVENT BUS
+        // ========================================================
+
+        m_eventBus.publish(
+            *controllerEvent);
+
+        // ========================================================
         // ENCODER EVENT
         // ========================================================
 
-        if (controllerEvent->type() == EventType::Encoder)
+        if (
+            controllerEvent->type() ==
+            EventType::Encoder)
         {
             const auto* encoderEvent =
                 dynamic_cast<const EncoderEvent*>(
@@ -319,12 +362,14 @@ void MidiService::update()
 
             continue;
         }
-        
+
         // ========================================================
         // JOG WHEEL EVENT
         // ========================================================
 
-        if (controllerEvent->type() == EventType::JogWheel)
+        if (
+            controllerEvent->type() ==
+            EventType::JogWheel)
         {
             const auto* jogWheelEvent =
                 dynamic_cast<const JogWheelEvent*>(
@@ -335,22 +380,27 @@ void MidiService::update()
                 continue;
             }
 
-            std::string deck = "Unknown";
+            std::string deck =
+                "Unknown";
 
-            if (jogWheelEvent->deck() == Deck::A)
+            if (
+                jogWheelEvent->deck() ==
+                Deck::A)
             {
                 deck = "A";
             }
-            else if (jogWheelEvent->deck() == Deck::B)
+            else if (
+                jogWheelEvent->deck() ==
+                Deck::B)
             {
                 deck = "B";
             }
 
             switch (jogWheelEvent->jogWheel())
             {
-                // ================================================
-                // NORMAL JOG ROTATION / PITCH BEND
-                // ================================================
+                // =================================================
+                // NORMAL JOG ROTATION
+                // =================================================
 
                 case JogWheel::Platter:
                 {
@@ -364,11 +414,11 @@ void MidiService::update()
                     break;
                 }
 
-                // ================================================
+                // =================================================
                 // SCRATCH ROTATION
-                // ================================================
+                // =================================================
 
-                          case JogWheel::Scratch:
+                case JogWheel::Scratch:
                 {
                     Logger::info(
                         "JOG SCRATCH Deck " +
@@ -380,9 +430,9 @@ void MidiService::update()
                     break;
                 }
 
-                // ================================================
-                // SEARCH ROTATION / SHIFT + JOG
-                // ================================================
+                // =================================================
+                // SEARCH ROTATION
+                // =================================================
 
                 case JogWheel::Search:
                 {
@@ -404,7 +454,9 @@ void MidiService::update()
         // JOG TOUCH EVENT
         // ========================================================
 
-        if (controllerEvent->type() == EventType::JogTouch)
+        if (
+            controllerEvent->type() ==
+            EventType::JogTouch)
         {
             const auto* jogTouchEvent =
                 dynamic_cast<const JogTouchEvent*>(
@@ -415,19 +467,25 @@ void MidiService::update()
                 continue;
             }
 
-            std::string deck = "Unknown";
+            std::string deck =
+                "Unknown";
 
-            if (jogTouchEvent->deck() == Deck::A)
+            if (
+                jogTouchEvent->deck() ==
+                Deck::A)
             {
                 deck = "A";
             }
-            else if (jogTouchEvent->deck() == Deck::B)
+            else if (
+                jogTouchEvent->deck() ==
+                Deck::B)
             {
                 deck = "B";
             }
 
             const std::string state =
-                jogTouchEvent->state() == JogTouchState::Touched
+                jogTouchEvent->state() ==
+                        JogTouchState::Touched
                     ? "TOUCHED"
                     : "RELEASED";
 
@@ -439,250 +497,6 @@ void MidiService::update()
 
             continue;
         }
-
-                // ========================================================
-        // PERFORMANCE PAD EVENT
-        // ========================================================
-
-        if (controllerEvent->type() == EventType::PerformancePad)
-        {
-            const auto* performancePadEvent =
-                dynamic_cast<const PerformancePadEvent*>(
-                    controllerEvent.get());
-
-            if (!performancePadEvent)
-            {
-                continue;
-            }
-
-            std::string deck = "Unknown";
-
-            if (performancePadEvent->deck() == Deck::A)
-            {
-                deck = "A";
-            }
-            else if (performancePadEvent->deck() == Deck::B)
-            {
-                deck = "B";
-            }
-
-            std::string pad = "UNKNOWN";
-
-            switch (performancePadEvent->performancePad())
-            {
-                case PerformancePad::Pad1:
-                    pad = "PAD 1";
-                    break;
-
-                case PerformancePad::Pad2:
-                    pad = "PAD 2";
-                    break;
-
-                case PerformancePad::Pad3:
-                    pad = "PAD 3";
-                    break;
-
-                case PerformancePad::Pad4:
-                    pad = "PAD 4";
-                    break;
-
-                case PerformancePad::Pad5:
-                    pad = "PAD 5";
-                    break;
-
-                case PerformancePad::Pad6:
-                    pad = "PAD 6";
-                    break;
-
-                case PerformancePad::Pad7:
-                    pad = "PAD 7";
-                    break;
-
-                case PerformancePad::Pad8:
-                    pad = "PAD 8";
-                    break;
-            }
-
-            std::string mode = "UNKNOWN";
-
-            switch (performancePadEvent->padMode())
-            {
-                case PadMode::HotCue:
-                    mode = "HOT CUE";
-                    break;
-
-                case PadMode::PadFX1:
-                    mode = "PAD FX1";
-                    break;
-
-                case PadMode::BeatJump:
-                    mode = "BEAT JUMP";
-                    break;
-
-                case PadMode::Sampler:
-                    mode = "SAMPLER";
-                    break;
-
-                case PadMode::Keyboard:
-                    mode = "KEYBOARD";
-                    break;
-
-                case PadMode::PadFX2:
-                    mode = "PAD FX2";
-                    break;
-
-                case PadMode::BeatLoop:
-                    mode = "BEAT LOOP";
-                    break;
-
-                case PadMode::KeyShift:
-                    mode = "KEY SHIFT";
-                    break;
-            }
-
-            const std::string state =
-                performancePadEvent->state() == ButtonState::Pressed
-                    ? "PRESSED"
-                    : "RELEASED";
-
-            Logger::info(
-                "PERFORMANCE PAD Deck " +
-                deck +
-                " -> " +
-                pad +
-                " | " +
-                mode +
-                " | " +
-                state);
-
-            continue;
-        }
-
-        // ========================================================
-        // BUTTON EVENT
-        // ========================================================
-
-        if (controllerEvent->type() != EventType::Button)
-        {
-            continue;
-        }
-
-        const auto* buttonEvent =
-            dynamic_cast<const ButtonEvent*>(
-                controllerEvent.get());
-
-        if (!buttonEvent)
-        {
-            continue;
-        }
-
-        // ========================================================
-        // DECK
-        // ========================================================
-
-        std::string deck = "Unknown";
-
-        if (buttonEvent->deck() == Deck::A)
-        {
-            deck = "A";
-        }
-        else if (buttonEvent->deck() == Deck::B)
-        {
-            deck = "B";
-        }
-
-        // ========================================================
-        // BUTTON
-        // ========================================================
-
-        std::string button = "UNKNOWN";
-
-        switch (buttonEvent->button())
-        {
-            case Button::Play:
-                button = "PLAY";
-                break;
-
-            case Button::Cue:
-                button = "CUE";
-                break;
-
-            case Button::Sync:
-                button = "SYNC";
-                break;
-
-            case Button::Shift:
-                button = "SHIFT";
-                break;
-
-            case Button::Load:
-                button = "LOAD";
-                break;
-
-            case Button::Browse:
-                button = "BROWSE";
-                break;
-
-            case Button::HotCue1:
-                button = "HOT CUE 1";
-                break;
-
-            case Button::HotCue2:
-                button = "HOT CUE 2";
-                break;
-
-            case Button::HotCue3:
-                button = "HOT CUE 3";
-                break;
-
-            case Button::HotCue4:
-                button = "HOT CUE 4";
-                break;
-
-            case Button::LoopIn:
-                button = "LOOP IN";
-                break;
-
-            case Button::LoopOut:
-                button = "LOOP OUT";
-                break;
-
-            case Button::ReloopExit:
-                button = "RELOOP/EXIT";
-                break;
-
-            case Button::BeatJumpForward:
-                button = "BEAT JUMP FORWARD";
-                break;
-
-            case Button::BeatJumpBackward:
-                button = "BEAT JUMP BACKWARD";
-                break;
-
-            default:
-                button = "UNKNOWN";
-                break;
-        }
-
-        // ========================================================
-        // BUTTON STATE
-        // ========================================================
-
-        const std::string state =
-            buttonEvent->state() == ButtonState::Pressed
-                ? "PRESSED"
-                : "RELEASED";
-
-        // ========================================================
-        // LOG
-        // ========================================================
-
-        Logger::info(
-            button +
-            " Deck " +
-            deck +
-            " -> " +
-            state);
     }
 }
 
@@ -694,7 +508,8 @@ void MidiService::shutdown()
 
     m_capture.reset();
 
-    Logger::info("MidiService shutdown.");
+    Logger::info(
+        "MidiService shutdown.");
 }
 
 } // namespace OpenDJ

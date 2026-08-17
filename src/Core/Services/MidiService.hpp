@@ -7,7 +7,7 @@
 #include "Controllers/MIDI/MidiInput.hpp"
 #include "Controllers/MIDI/MidiProcessor.hpp"
 #include "Controllers/MIDI/MidiCapture.hpp"
-
+#include "Core/Events/EventBus.hpp"
 #include "Controllers/Profiles/ControllerProfile.hpp"
 
 #include <memory>
@@ -19,7 +19,7 @@ class MidiService final : public IService
 {
 public:
 
-    MidiService() = default;
+    explicit MidiService(EventBus& eventBus);
 
     ~MidiService() override = default;
 
@@ -31,7 +31,9 @@ public:
 
 private:
 
-    MidiDeviceManager m_deviceManager;
+    EventBus& m_eventBus;
+
+	MidiDeviceManager m_deviceManager;
 
     std::unique_ptr<MidiInput> m_input;
 

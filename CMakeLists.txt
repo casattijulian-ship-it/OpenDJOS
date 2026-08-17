@@ -62,6 +62,17 @@ add_executable(OpenDJOS
     src/Controllers/Mapping/EncoderEvent.cpp
     src/Controllers/Mapping/PerformancePadEvent.cpp
 
+    # Handlers
+    src/Controllers/Handlers/PerformancePadHandler.cpp
+    src/Controllers/Handlers/PerformancePadActionExecutor.cpp
+    src/Controllers/Handlers/ButtonHandler.cpp
+    src/Controllers/Handlers/ButtonActionExecutor.cpp
+    src/Controllers/Handlers/JogWheelHandler.cpp
+    src/Controllers/Handlers/JogWheelActionExecutor.cpp
+    
+    # State
+    src/Controllers/State/ModifierState.cpp
+    
     # MIDI
     src/Controllers/MIDI/MidiDevice.cpp
     src/Controllers/MIDI/MidiDeviceManager.cpp
